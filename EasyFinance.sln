@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyFinance", "EasyFinance\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyFinance.DataAccess", "EasyFinance.DataAccess\EasyFinance.DataAccess.csproj", "{9D8A9A4F-95EA-4F6D-9D81-9B920553C12F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyFinance.BusinessLogic", "EasyFinance.BusinessLogic\EasyFinance.BusinessLogic.csproj", "{ADC03C0B-8C9F-4437-8A50-DEE3CF134985}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9D8A9A4F-95EA-4F6D-9D81-9B920553C12F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D8A9A4F-95EA-4F6D-9D81-9B920553C12F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D8A9A4F-95EA-4F6D-9D81-9B920553C12F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC03C0B-8C9F-4437-8A50-DEE3CF134985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC03C0B-8C9F-4437-8A50-DEE3CF134985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC03C0B-8C9F-4437-8A50-DEE3CF134985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC03C0B-8C9F-4437-8A50-DEE3CF134985}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
