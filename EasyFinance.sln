@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyFinance.DataAccess", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyFinance.BusinessLogic", "EasyFinance.BusinessLogic\EasyFinance.BusinessLogic.csproj", "{ADC03C0B-8C9F-4437-8A50-DEE3CF134985}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyFinance.OCR", "EasyFinance.OCR\EasyFinance.OCR.csproj", "{732C07FF-488B-45B9-AB7B-C943E38B3830}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{ADC03C0B-8C9F-4437-8A50-DEE3CF134985}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADC03C0B-8C9F-4437-8A50-DEE3CF134985}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADC03C0B-8C9F-4437-8A50-DEE3CF134985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732C07FF-488B-45B9-AB7B-C943E38B3830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732C07FF-488B-45B9-AB7B-C943E38B3830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732C07FF-488B-45B9-AB7B-C943E38B3830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732C07FF-488B-45B9-AB7B-C943E38B3830}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
