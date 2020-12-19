@@ -16,14 +16,16 @@ export class NavbarComponent implements OnInit {
   
   title: string = 'Easy Finance'
   
-  constructor(private authService: AuthenticationService,
+  constructor(public authService: AuthenticationService,
     private router: Router) { }
 
   ngOnInit() {
   }
 
   onMenuButtonClick() {
-    this.menuButtonClick.emit();
+    if(this.authService.currentUserValue) {
+      this.menuButtonClick.emit();
+    }      
   }
 
   logout() {

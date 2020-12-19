@@ -1,4 +1,6 @@
 <div class="bootstrap-wrapper">
+  <app-spinner-overlay overlay="true" *ngIf="scanningReceipt">
+  </app-spinner-overlay>
   <form [formGroup]="receiptForm" *ngIf="currentReceipt">
     <div class="row">
       <div class="col-12">
@@ -102,8 +104,8 @@
       </div>
     </mat-dialog-content>
     <mat-dialog-actions align="end">
-      <button mat-raised-button color="primary" (click)="onStartAutoScan()" *ngIf="isNewMode()">Відправити <mat-icon>publish</mat-icon>
-      </button>
+      <!-- <button mat-raised-button color="primary" (click)="onStartAutoScan()" *ngIf="isNewMode()">Відправити <mat-icon>publish</mat-icon>
+      </button> -->
       <button mat-raised-button color="primary" (click)="onGetAutoScanned()"  *ngIf="isNewMode()">Сканувати <mat-icon>scanner</mat-icon>
       </button>
       <button mat-raised-button color="accent" (click)="onSave()">Зберегти <mat-icon>save</mat-icon></button>
