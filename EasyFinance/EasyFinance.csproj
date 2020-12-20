@@ -6,7 +6,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.13.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EasyFinance.BusinessLogic\EasyFinance.BusinessLogic.csproj" />
+    <ProjectReference Include="..\EasyFinance.DataAccess\EasyFinance.DataAccess.csproj" />
+    <ProjectReference Include="..\EasyFinance.OCR\EasyFinance.OCR.csproj" />
   </ItemGroup>
 
 </Project>
